@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta nome="author" content="Daiane Ferreira" />
+    <title>Combustíveis</title> 
+    <link href="imagens/posto.png" rel="shortcut icon" type="image/jpg" />
+    <link href="imagens/img-ico.png" rel="shortcut icon" type="image/png" />
+    <link href="css/estilo.css" rel="stylesheet" >
+    <!--style="background-image: url(imagens/posto.jpg)" ; id="body" !-->
+
+    <!--style="background-image: url(imagens/img.jpg)" width="200 ; id="body"> !-->
+    <!--style="background-image: url(imagens/posto.png)"  width="200 ; id="body"-->
+   <!--style="background-image: url(imagens/posto.png)" -->
+<head>
+    <body id="body" style="background-image: url(imagens/posto.png); background-repeat: no-repeat;" >
+        
+    <header>
+      
+        <div class="container" ><br />
+            <br />
+             <h1>App Combustíveis </h1> 
+             <br>
+            <h2 id="result"></h2>  
+        </div>
+              
+          
+           <!--<img src="imagens/posto.jpg" width="1328"> !-->  
+    </header> 
+    <main>
+        <div class="container" >
+            <form class="form" onsubmit="return false;">
+                <label>Valor da gasolina:</label><br />
+                <label>R$ </label>
+                <input type="text" placeholder="0,0" id="gasolina" onkeydown="verificarInput(event);" /><br /><br /> 
+                <label>Valor do etanol:</label><br />
+                <label>R$ </label>
+                <input type="text" placeholder="0,00" id="etanol" onkeydown="verificarInput(event);" /><br /><br /> 
+                <button onclick="combustivel();">Calcular</button>
+            </form>
+    </main>
+    <script src="js/script.js"></script>        
+</body>    
+</html>
+
+
+<!--style="background-image: url(imagens/img.jpg);" width="600" />-->
+
+<!--<img src="imagens/img.jpg" width="1000" width="500">
+    <br /> <br />-->

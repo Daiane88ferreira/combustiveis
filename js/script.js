@@ -3,12 +3,11 @@ function combustivel() {
     var etanol =document.getElementById('etanol').value; 
     var result =document.getElementById('result');
   
-//trocar virgula por ponto
+
     gasolina = gasolina.replace(',', '.');
     etanol = etanol.replace(',','.');
 
     if (gasolina != '' && etanol != '') {
-        // calcular o melhor combustível
 
     var maisBarato =etanol/gasolina;
 
